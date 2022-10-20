@@ -1,4 +1,6 @@
 
+![test image size]<img src="https://fullpath/assets/yourgif.gif" width="400" height="790">
+
 
 # Uttam Saket
 # Capstone project no. 2 - Sentiment Analysis on "Reviews.csv dataset"
