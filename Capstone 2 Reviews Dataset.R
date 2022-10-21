@@ -6,12 +6,13 @@
 read.csv("D:\\Capstone project_IIT Madras_For certificate\\Reviews.csv")->review
 View(review)
 table(review$Score)
+sum(is.na(review))
 
-# since there is only one record where null value is found, we will omit that record
+# since there are only 4 records where null value is found, we will omit those records
 na.omit(review)->review
 View(review)
 
-# Now, we will remove all duplicate ratings as data reprocessing:
+# Now, we will remove all duplicate ratings as data preprocessing:
 
 library(dplyr)
 review %>%  group_by(UserId, ProductId) %>% mutate(N=n())->review
