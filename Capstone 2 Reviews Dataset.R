@@ -1,7 +1,6 @@
 
-
-# Uttam Saket
 # Capstone project no. 2 - Sentiment Analysis on "Reviews.csv dataset"
+# Using R programming language
 
 read.csv("D:\\Capstone project_IIT Madras_For certificate\\Reviews.csv")->review
 View(review)
